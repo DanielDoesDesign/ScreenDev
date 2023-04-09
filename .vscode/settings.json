@@ -1,0 +1,20 @@
+{
+    "cmake.sourceDirectory": "${workspaceFolder}/lvgl",
+    "cmake.configureOnOpen": true,
+    "cSpell.ignoreWords": [],
+    "cSpell.words": [
+        "btns",
+        "Daaayyymm",
+        "indev",
+        "INDEV",
+        "Littelv",
+        "LVGL",
+        "mbox",
+        "msgbox",
+        "antialiasing"
+    ],
+    "files.associations": {
+        "lvgl.h": "c",
+        "ui_helpers.h": "c"
+    }
+}
