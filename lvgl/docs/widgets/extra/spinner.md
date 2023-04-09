@@ -1,11 +1,7 @@
-```eval_rst
-.. include:: /header.rst 
-:github_url: |github_link_base|/widgets/extra/spinner.md
-```
 # Spinner (lv_spinner)
 
 ## Overview
-The Spinner object is a spinning arc over a ring. 
+The Spinner object is a spinning arc over a ring.
 
 ## Parts and Styles
 The parts are identical to the parts of [lv_arc](/widgets/core/arc).
@@ -14,10 +10,12 @@ The parts are identical to the parts of [lv_arc](/widgets/core/arc).
 
 ### Create a spinner
 
-To create spinner use `lv_spinner_create(parent, spin_time, arc_length)`. `spin time` set the spin time in milliseconds, `arc_length` sets the length of the spinning arc in degrees.
+To create a spinner use `lv_spinner_create(parent, spin_time, arc_length)`. `spin time` sets the spin time in milliseconds, `arc_length` sets the length of the spinning arc in degrees.
 
 ## Events
-No special events are sent the the Spinner.
+No special events are sent to the Spinner.
+
+See the events of the [Arc](/widgets/core/arc) too.
 
 Learn more about [Events](/overview/event).
 
@@ -36,11 +34,11 @@ Learn more about [Keys](/overview/indev).
 
 ```
 
-## API 
+## API
 
 ```eval_rst
 
 .. doxygenfile:: lv_spinner.h
   :project: lvgl
-        
+
 ```

@@ -1,11 +1,7 @@
-```eval_rst
-.. include:: /header.rst 
-:github_url: |github_link_base|/widgets/list.md
-```
 # List (lv_list)
 
 ## Overview
-The List is basically a rectangle with vertical layout to which Buttons and Texts can be added 
+The List is basically a rectangle with vertical layout to which Buttons and Texts can be added
 
 ## Parts and Styles
 
@@ -21,10 +17,10 @@ See the [Button](/widgets/core/btn)'s and [Label](/widgets/core/label)'s documen
 ### Buttons
 `lv_list_add_btn(list, icon, text)` adds a full-width button with an icon - that can be an image or symbol - and a text.
 
-The text starts to scroll horizontally if its too long.
+The text starts to scroll horizontally if it's too long.
 
 ### Texts
-`lv_list_add_text(list, icon, text)` adds a text.
+`lv_list_add_text(list, text)` adds a text.
 
 
 ## Events
@@ -45,11 +41,11 @@ Learn more about [Keys](/overview/indev).
 
 ```
 
-## API 
+## API
 
 ```eval_rst
 
 .. doxygenfile:: lv_list.h
   :project: lvgl
-        
+
 ```

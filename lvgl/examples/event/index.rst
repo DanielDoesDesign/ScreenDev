@@ -1,5 +1,3 @@
-C
-^
 
 Button click event
 """""""""""""""""""
@@ -18,8 +16,4 @@ Event bubbling
 .. lv_example:: event/lv_example_event_3
   :language: c
 
-  
-MicroPython
-^^^^^^^^^^^
 
-No examples yet.
